@@ -4,6 +4,7 @@ angular
     'ui.router',
 
     'modules',
+    'views',
 
     'app.home'
   ]);

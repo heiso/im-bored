@@ -21,7 +21,9 @@ module.exports =
       'angular/angular.min.js'
       'angular/angular.min.js.map'
       'ui-router/release/angular-ui-router.min.js'
+      'firebase/firebase.js'
+      'angularfire/dist/angularfire.min.js'
     ]
     css: [
-      
+
     ]
