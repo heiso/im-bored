@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="app" ng-controller="appCtrl" app-version="<%= version %>">
+  <head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- compiled CSS --><% styles.forEach( function ( file ) { %>
+    <link rel="stylesheet" type="text/css" href="<%= file %>"/>
+    <% }); %>
+    <link rel="stylesheet" type="text/css" href="<%= style %>"/>
+
+  </head>
+  <body>
+
+    <div class="main-view" ui-view="main"></div>
+
+    <!-- compiled JS --><% scripts.forEach( function ( file ) { %>
+    <script type="text/javascript" src="<%= file %>"></script>
+    <% }); %>
+
+  </body>
+</html>

@@ -1,0 +1,6 @@
+<button type="button" ng-click="triggerAvailable()">I’m bored {{vm.currentUser.available}}</button>
+<ul>
+  <li ng-repeat="user in vm.users">
+    {{user.available}} - {{user.name}}
+  </li>
+</ul>
